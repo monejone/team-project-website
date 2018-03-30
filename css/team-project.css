@@ -1,0 +1,182 @@
+/* Styling assigned to all the document */
+
+body {
+  background-color: #e6e6e6;
+  font-family: "lucida console", lucida, sans-serif;
+  margin:0 0 0 0;
+}
+
+/* Horizontal Navbar styling */
+
+/* Container of the whole navbar, extending for all the available screen-width. Position is
+specified as fixed so not to move along with the scrolling of the page and, hence, stay always
+on top */
+
+.navbar-container {
+  width: 100%;
+  background-color: black;
+  font-size: 16px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
+}
+
+/* Container of the list of links making the navbar, in this specific case, it overlaps the parent
+container as far as width and height are concerned. Padding and margin are bot set to 0 */
+
+.navbar {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+/* Container of a single element of the navbar, extending for a width that is provided by the division
+of the whole width (100%) by the number of elements (5). The .1 is specified in order to account for eventual
+space taken up by eventual padding, borders and margins. Display is specified as inline-block so that each element
+won't take more width than what is specified and will be ordered on the same line, one next to each other, instead
+than on top of each other*/
+
+.nav-item {
+  display: inline-block;
+  width: calc(100%/5.2);
+  text-align: center;
+}
+
+/* Link directing to the respective child page for each navbar voice. Display:inline-block must be specified for The
+child element as well so that it follows the size of the parent element. The style assigned to the links will reflect
+on all the navbar appearence. Text-decoration:none is necessary otherwise, by default, links are colored blue and
+underlined. An "invisible" border of 5px, same color than the background-color assigned to navbar-container, must be defined to account
+for the border that will appear when hovering on each navbar item with the mouse. A width of 50% is specified so that the lenght of The
+yellow border when hovering with the mouse pointer will just take up the lenght of the link description */
+
+.nav-item a {
+  width: 59%;
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: white;
+  border-bottom: 5px solid black;
+}
+
+/* Defines the style that each navbar item will going to take when hovering with the mouse pointer, so to render clear
+that each navbar item is a button linking to the respective page. Any change in the appearence of the links may be
+defined. */
+
+.nav-item a:hover {
+  color: #ffc61a;
+  border-bottom: 5px solid #ffc61a;
+}
+
+.active a {
+  color: #ffc61a;
+  border-bottom: 5px solid #ffc61a;
+}
+
+/* Header styling */
+
+#header1 {
+  background-image: url("../img/logo.png"), url("../img/header.jpg");
+  background-size: 30%, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, top left;
+  background-origin: content-box, padding-box;
+  width: 74%;
+  height: 250px;
+  margin: auto;
+  margin-top: 58px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  border-top: 1px solid darkgrey;
+  padding: 3%;
+}
+
+/* Styling for the Homepage.html header */
+
+.heading, .heading1, .heading2 {
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.heading1 {
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.heading2 {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+/* Styling for the Projects.html header */
+
+.heading_p, .heading_1p, .heading_2p, .heading_3p {
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.heading_1p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.heading_2p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.heading_3p {
+  font-size: 60px;
+  margin-top: 5%;
+}
+
+/* Main content styling */
+
+#content {
+  width: 80%;
+  height: 1000px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  border-top: 1px solid white;
+}
+
+.homepage-title {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.homepage-content {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Footer styling */
+
+.footer {
+  width: 80%;
+  height: 50px;
+  border-top: 1px solid black;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
