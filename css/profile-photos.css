@@ -1,0 +1,120 @@
+.flexbox-container {
+  max-width: 80%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+}
+
+.column {
+  flex: 25%;
+  min-width:200px;
+  height: auto;
+  margin: 5px;
+  background-color: #f5f5f0;
+  border: 1px outset #d6d6c2;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}
+
+.column:hover {
+  background-color: lightgrey;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.column a {
+  text-decoration: none;
+}
+
+.link {
+  display: block;
+  background-color: inherit;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 10px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+/* Styling Image ID */
+
+.img_id {
+  width: 93%;
+  margin: 7px;
+  border: 1px solid #a6a6a6;
+}
+
+/* Styling the overlay window */
+
+#overlay, #overlay1, #overlay2, #overlay3, #overlay4, #overlay5 {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 2;
+  cursor: pointer;
+}
+
+/*Styling the box in the center of the overlay window, that fill all of the screen*/
+
+.box {
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 5%;
+  padding: 10px;
+  width: 50%;
+  height: 370px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  text-align: justify;
+  text-justify: inter-word;
+  overflow-y: scroll;
+}
+
+/*Overlay ID picture */
+
+.overlay_id {
+  width: 30%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+  border: 1px solid #000000;
+}
+
+/* contact box in within the overlay box */
+
+.contacts {
+  display: inline;
+  position: fixed;
+  bottom: 5%;
+  left: 25%;
+  width: 50%;
+  height: 19%;
+  background-color: #4d1a00;
+  color: #ffffff;
+  padding: 10px;
+  border-right: 1px solid #4d1a00;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}

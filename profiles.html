@@ -8,6 +8,9 @@
 	<title>Chlamydia Reaserch Team Members</title>
 
 	<link rel="stylesheet" href="css/team-project.css">
+	<link rel="stylesheet" href="css/profile-photos.css">
+
+	<script src="js/overlay.js"></script>
 
 </head>
 <body>
@@ -22,15 +25,253 @@
 	</nav>
 
 	<header id="header1">
-			<h1 class="heading_p">CHLAMYDIA</h1>
-			<h1 class="heading_1p">RESEARCH</h1>
-			<h1 class="heading_2p">TEAM:</h1>
-			<h1 class="heading_3p">MEMBERS</h1>
+		<h1 class="heading_p">CHLAMYDIA</h1>
+		<h1 class="heading_1p">RESEARCH</h1>
+		<h1 class="heading_2p">TEAM:</h1>
+		<h1 class="heading_3p">MEMBERS</h1>
 	</header>
 
-	<div id="content">
-		<h2 class="homepage-title">MEMBER PROFILES</h2>
-		<p class="homepage-content">Everyone is listed here!</p>
+	<div id="content" style="height: auto;padding-bottom: 50px;padding-top: 50px;">
+		<h2 class="homepage-title">RESEARCH TEAM MEMBER PROFILES</h2>
+		<div class="flexbox-container">
+			<div class="row">
+				<div class="column">
+					<a href="#" onclick="on();return false;" title="Contact information">
+						<img class="img_id" src="img/1.jpg" />
+						<div class="link">
+							<p>Prof. Ian Clarke</p>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="#" onclick="on1();return false;" title="Contact information">
+						<img class="img_id" src="img/2.jpg" />
+						<div class="link">
+							<p>Dr. Rachel Skilton</p>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="#" onclick="on2();return false;" title="Contact information">
+						<img class="img_id" src="img/3.jpg" />
+						<div class="link">
+							<p>Dr. Colette Oneill</p>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="#" onclick="on3();return false;" title="Contact information">
+						<img class="img_id" src="img/4.jpg" />
+						<div class="link">
+							<p>Dr. Emma Cousins</p>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="#" onclick="on4();return false;" title="Contact information">
+						<img class="img_id" src="img/6.jpg" />
+						<div class="link">
+							<p>Dr. Simone Filardo</p>
+						</div>
+					</a>
+				</div>
+				<div class="column">
+					<a href="#" onclick="on5();return false;" title="Contact information">
+						<img class="img_id" src="img/5.jpg" />
+						<div class="link">
+							<p>Dr. Chloe</p>
+						</div>
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="overlay" onclick="off()">
+		<div class="box">
+			<img class="overlay_id" src="img/1.jpg" />
+			<h1>Prof. Ian Clarke</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Experiences</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Collaborations</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Awards</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Grants</h1>
+			<p style="padding-bottom: 100px;">This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<div class="contacts">
+				<p><b>Contact information</b></p>
+				<p>Location</p>
+				<p>Phone Numbers</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="overlay1" onclick="off1()">
+		<div class="box">
+			<img class="overlay_id" src="img/2.jpg" />
+			<h1>Dr. Rachel Skilton</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Experiences</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Collaborations</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Awards</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Grants</h1>
+			<p style="padding-bottom: 100px;">This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<div class="contacts">
+				<p><b>Contact information</b></p>
+				<p>Location</p>
+				<p>Phone Numbers</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="overlay2" onclick="off2()">
+		<div class="box">
+			<img class="overlay_id" src="img/3.jpg" />
+			<h1>Dr. Colette Oneill</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Experiences</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Collaborations</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Awards</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Grants</h1>
+			<p style="padding-bottom: 100px;">This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<div class="contacts">
+				<p><b>Contact information</b></p>
+				<p>Location</p>
+				<p>Phone Numbers</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="overlay3" onclick="off3()">
+		<div class="box">
+			<img class="overlay_id" src="img/4.jpg" />
+			<h1>Dr. Emma Cousins</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Experiences</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Collaborations</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Awards</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Grants</h1>
+			<p style="padding-bottom: 100px;">This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<div class="contacts">
+				<p><b>Contact information</b></p>
+				<p>Location</p>
+				<p>Phone Numbers</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="overlay4" onclick="off4()">
+		<div class="box">
+			<img class="overlay_id" src="img/6.jpg" />
+			<h1>Dr. Simone Filardo</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Experiences</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Collaborations</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Awards</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Grants</h1>
+			<p style="padding-bottom: 100px;">This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<div class="contacts">
+				<p><b>Contact information</b></p>
+				<p>Location</p>
+				<p>Phone Numbers</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="overlay5" onclick="off5()">
+		<div class="box">
+			<img class="overlay_id" src="img/5.jpg" />
+			<h1>Dr. Chloe</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Experiences</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Collaborations</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Awards</h1>
+			<p>This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<h1>Grants</h1>
+			<p style="padding-bottom: 100px;">This paragraph is about education,
+			work experiences teaching experiences, awards, research line, contact information like location or phone
+			numbers and everything else that could be useful for a visitor to get to know the Chlamydia team!!</p>
+			<div class="contacts">
+				<p><b>Contact information</b></p>
+				<p>Location</p>
+				<p>Phone Numbers</p>
+			</div>
+		</div>
 	</div>
 
 	<footer class="footer">
