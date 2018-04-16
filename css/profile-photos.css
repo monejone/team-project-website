@@ -85,7 +85,7 @@ h1 {
   margin-top: 5%;
   padding: 10px;
   width: 50%;
-  height: 370px;
+  height: 80%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
   text-align: justify;
@@ -106,7 +106,7 @@ h1 {
 /* contact box in within the overlay box */
 
 .contacts {
-  display: inline;
+  display: static;
   position: fixed;
   bottom: 5%;
   left: 25%;
